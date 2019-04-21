@@ -1,7 +1,13 @@
 * {
 	box-sizing: border-box;
 	margin-top: 0;
+
 	
+}
+
+body{
+	font-size: 100%;
+	font-family: Times,serif;
 }
 
 h1 {
@@ -9,6 +15,7 @@ h1 {
 	font-weight: bold;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	font-size: 1.75em;
 }
 
 .row {
@@ -58,6 +65,7 @@ p {
 		border:1px solid black;
 		background-color: pink;
 		padding: 5px;
+		font-size: 1.25em;
 	}
 	.col-lg-5{
 		width:41.66%;
@@ -118,6 +126,7 @@ p {
 		right:22px;
 		background-color: pink;
 		padding: 5px;
+		font-size: 1.25em;
 	}
 	.col-md-7{
 		width:58.33%;
@@ -145,6 +154,7 @@ p {
 		right:22px;
 		background-color: pink;
 		padding: 5px;
+		font-size: 1.25em;
 		
 	}
 	.col-md-12 * {
@@ -203,7 +213,8 @@ p {
 		top:0;
 		right:22px;
 		background-color: pink;
-		padding: 5px;	
+		padding: 5px;
+		font-size: 1.25em;	
 	}
 	
 }
